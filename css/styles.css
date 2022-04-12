@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
 @import "reset.css";
 @import "status-bar.css";
+@import "variables.css";
 body {
     font-family: -apple-system,
     BlinkMacSystemFont,
@@ -43,6 +44,7 @@ body {
     font-size: 18px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
+    transition: border-color 0.3 ease-in-out;
 }
 
 #login-form input::placeholder {
@@ -50,5 +52,5 @@ body {
 }
 
 #login-form input:focus {
-    border-color: rgba(0, 0, 0, 0.4);
+    border-color: var(--yellow);
 }
