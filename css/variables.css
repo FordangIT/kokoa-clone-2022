@@ -1,3 +1,4 @@
 :root {
-    --yellow: rgb(242, 221, 67)
+    --yellow: rgb(242, 221, 67);
+    --horizontal-space: 35px;
 }

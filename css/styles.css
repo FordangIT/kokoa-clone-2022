@@ -9,7 +9,7 @@
 
 /* Screens*/
 @import "screens/login.css";
-@import "screens/sreens.css";
+@import "screens/friends.css";
 body {
     color: #2e363e;
     font-family: -apple-system,
