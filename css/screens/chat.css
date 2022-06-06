@@ -181,6 +181,7 @@
     opacity: 0;
 }
 
+/*.reply input:focus 라 해도됨 */
 .reply:focus-within input {
     width: 98vw;
     transform: translateX(-13%) translateY(-80px);
